@@ -1,4 +1,4 @@
-import java.util.ArrayDeque;
+import java.util.*;
 
 public class ArrayDequeInJava {
 
@@ -21,6 +21,24 @@ public class ArrayDequeInJava {
 	    m.addLast(200000);
 	    System.out.println(m);
 		
+	    //using descendingIterator
+	    System.out.println("**********");
+	    Iterator mk=m.descendingIterator();
+	    while(mk.hasNext())
+	    {
+	    Object o =mk.next();
+	    System.out.println(o);
+	    }
+	     
+	    //using Iterator
+	    System.out.println("**********");
+	    Iterator ml=m.iterator();
+	    while(ml.hasNext())
+	    {
+	    Object o =ml.next();
+	    System.out.println(o);
+	    }
+	          
 
 	}
 
