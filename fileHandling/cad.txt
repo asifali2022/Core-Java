@@ -1,16 +1,9 @@
-I
-AM
-ASIF
-ALI
-I AM
-ENROLLED
-IN
-FULL
-STACK
-JAVA
-PROGRAM
-AT
-INEURON
- Nhello
-ok
-asfe
+o
+true
+asif ali
+18
+oo
+true
+asif ali
+18
+o
